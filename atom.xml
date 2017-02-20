@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nelcanto.github.io/"/>
-  <updated>2017-02-20T00:25:09.636Z</updated>
+  <updated>2017-02-20T05:00:01.395Z</updated>
   <id>http://nelcanto.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HexoGuideNotes</title>
+    <link href="http://nelcanto.github.io/2017/02/19/HexoGuideNotes/"/>
+    <id>http://nelcanto.github.io/2017/02/19/HexoGuideNotes/</id>
+    <published>2017-02-20T00:45:26.000Z</published>
+    <updated>2017-02-20T05:00:01.395Z</updated>
+    
+    <content type="html"><![CDATA[<p>commands on linux terminal for hexo</p>
+<p><excerpt in="" index="" |="" summary??=""><a id="more"></a><the rest="" of="" contents="" |="" 余下全文=""></the></excerpt></p>
+<p>install node.js-legacy and npm, then hexo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g</div><div class="line">hexo s</div><div class="line">hexo d</div><div class="line"></div><div class="line">hexo new page [PAGENAME]</div><div class="line">hexo new post [POSTNAME]</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;commands on linux terminal for hexo&lt;/p&gt;
+&lt;p&gt;&lt;Excerpt in index | SUMMARY??&gt;
+    
+    </summary>
+    
+    
+      <category term="TEST1" scheme="http://nelcanto.github.io/tags/TEST1/"/>
+    
+      <category term="TAG2" scheme="http://nelcanto.github.io/tags/TAG2/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
