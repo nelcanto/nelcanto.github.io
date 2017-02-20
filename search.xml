@@ -9,7 +9,10 @@
       <content type="html"><![CDATA[<p>commands on linux terminal for hexo</p>
 <p><excerpt in="" index="" |="" summary??=""><a id="more"></a><the rest="" of="" contents="" |="" 余下全文=""></the></excerpt></p>
 <p>install node.js-legacy and npm, then hexo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g</div><div class="line">hexo s</div><div class="line">hexo d</div><div class="line"></div><div class="line">hexo new page [PAGENAME]</div><div class="line">hexo new post [POSTNAME]</div></pre></td></tr></table></figure>]]></content>
+<p>disque shortname ground0</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g</div><div class="line">hexo s</div><div class="line">hexo d</div><div class="line"></div><div class="line">hexo new page [PAGENAME]</div><div class="line">hexo new post [POSTNAME]</div></pre></td></tr></table></figure>
+<h2 id="HELPFUL-LINKS"><a href="#HELPFUL-LINKS" class="headerlink" title="HELPFUL LINKS"></a>HELPFUL LINKS</h2><p><a href="http://moxfive.xyz/" target="_blank" rel="external">moxfive’s blog</a></p>
+]]></content>
       
         
         <tags>
