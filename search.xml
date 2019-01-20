@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title><![CDATA[Coding 823]]></title>
+      <url>http://nelcanto.github.io/2019/01/20/Coding-823/</url>
+      <content type="html"><![CDATA[<p>823    </p>
+<p><excerpt in="" index="" |="" summary??=""><a id="more"></a><the rest="" of="" contents="" |="" 余下全文=""></the></excerpt></p>
+<p>Description<br>Give two input stream inputA and inputB, which have Backspace. If the final result of the two input streams is equal, output YES, otherwise output NO.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</div><div class="line">    <span class="comment">/**</span></div><div class="line">     * <span class="doctag">@param</span> inputA: Input stream A</div><div class="line">     * <span class="doctag">@param</span> inputB: Input stream B</div><div class="line">     * <span class="doctag">@return</span>: The answer</div><div class="line">     */</div><div class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">inputStream</span><span class="params">(String inputA, String inputB)</span> </span>&#123;</div><div class="line">        <span class="comment">// Write your code here</span></div><div class="line">        <span class="keyword">char</span>[] a = <span class="keyword">new</span> <span class="keyword">char</span>[inputA.length()];</div><div class="line">        <span class="keyword">char</span>[] b = <span class="keyword">new</span> <span class="keyword">char</span>[inputB.length()];</div><div class="line">        <span class="keyword">int</span> lenA = arrNoBackspace(a, inputA);</div><div class="line">        <span class="keyword">int</span> lenB = arrNoBackspace(b, inputB);</div><div class="line">        </div><div class="line">        <span class="keyword">if</span> (lenA != lenB) <span class="keyword">return</span> <span class="string">"NO"</span>;</div><div class="line">        <span class="keyword">else</span>&#123;</div><div class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; lenA; i++)&#123;</div><div class="line">                <span class="keyword">if</span>( a[i] != b[i] ) <span class="keyword">return</span> <span class="string">"NO"</span>;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        </div><div class="line">        <span class="keyword">return</span> <span class="string">"YES"</span>;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">int</span> <span class="title">arrNoBackspace</span><span class="params">(<span class="keyword">char</span>[] charArr, String input)</span></span>&#123;</div><div class="line">        <span class="keyword">int</span> len = <span class="number">0</span>;</div><div class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; input.length(); i++)&#123;</div><div class="line">            <span class="keyword">if</span>(input.charAt(i) != <span class="string">'&lt;'</span>)&#123;</div><div class="line">                charArr[len++] = input.charAt(i);</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">else</span>&#123;</div><div class="line">                len--;</div><div class="line">                <span class="keyword">if</span>(len &lt; <span class="number">0</span>) len = <span class="number">0</span>;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        </div><div class="line">        <span class="keyword">return</span> len;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>PROS</p>
+<ul>
+<li>can wrote it out and works in one try</li>
+<li>have clear idea</li>
+</ul>
+<p>CONS</p>
+<ul>
+<li>too much time consuming</li>
+<li>cannot be bugfree</li>
+<li>lots of newbie mistakes</li>
+</ul>
+<p>NOTES</p>
+<ul>
+<li>char[] a = new char[Sting.length()];</li>
+<li>Sting.charAt(i)</li>
+</ul>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> CODING </tag>
+            
+            <tag> STACK </tag>
+            
+            <tag> STRING </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[test]]></title>
       <url>http://nelcanto.github.io/2019/01/20/test/</url>
       <content type="html"><![CDATA[<p>Nearly 2 yrs from first built this blog, and I am trying to pick up where I left off.</p>
