@@ -4,6 +4,21 @@
   
     
     <entry>
+      <title><![CDATA[test]]></title>
+      <url>http://nelcanto.github.io/2019/01/20/test/</url>
+      <content type="html"><![CDATA[<p>Nearly 2 yrs from first built this blog, and I am trying to pick up where I left off.</p>
+<p><excerpt in="" index="" |="" summary??=""><a id="more"></a><the rest="" of="" contents="" |="" 余下全文=""></the></excerpt></p>
+<p>and found that</p>
+<p>I totally forgot everything, the mark downs…the hexo…</p>
+<p>Fortunatly I got notes. So that I had a chance to pick them up immediatly.</p>
+<p>And I am going to challenge myself a little bit to finish at least one coding exercise a day.</p>
+<p>Be prepare to adapt a new life in a new year.</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[HexoGuideNotes]]></title>
       <url>http://nelcanto.github.io/2017/02/19/HexoGuideNotes/</url>
       <content type="html"><![CDATA[<p>commands on linux terminal for hexo</p>
@@ -11,7 +26,7 @@
 <p>install node.js-legacy and npm, then hexo</p>
 <p>disque shortname ground0</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g</div><div class="line">hexo s</div><div class="line">hexo d</div><div class="line"></div><div class="line">hexo new page [PAGENAME]</div><div class="line">hexo new post [POSTNAME]</div></pre></td></tr></table></figure>
-<h2 id="HELPFUL-LINKS"><a href="#HELPFUL-LINKS" class="headerlink" title="HELPFUL LINKS"></a>HELPFUL LINKS</h2><p><a href="http://moxfive.xyz/" target="_blank" rel="external">moxfive’s blog</a></p>
+<h2 id="HELPFUL-LINKS"><a href="#HELPFUL-LINKS" class="headerlink" title="HELPFUL LINKS"></a>HELPFUL LINKS</h2><p><a href="http://moxfive.xyz/" target="_blank" rel="external">moxfive’s blog</a><br><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-blog-with-hexo-on-ubuntu-14-04" target="_blank" rel="external">Digitalocean tutor</a></p>
 ]]></content>
       
         
